@@ -16,11 +16,12 @@ keywords = [
 license = "0BSD"
 name = "mkw41z-hal"
 repository = "https://github.com/therealprof/mkw41z-hal"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies]
-bare-metal = "0.1.1"
+bare-metal = "0.2.0"
 cortex-m = "0.4.3"
+mkw41z = "0.1.0"
 nb = "0.1.1"
 
 [dependencies.cast]
@@ -30,9 +31,6 @@ version = "0.2.2"
 [dependencies.embedded-hal]
 features = ["unproven"]
 version = "0.1.2"
-
-[dependencies.mkw41z]
-version = "0.1.0"
 
 [features]
 default = ["rt"]
